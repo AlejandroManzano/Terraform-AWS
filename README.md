@@ -26,6 +26,11 @@ Every time we add a provider, we use command:
 
 This command downloads and installs the provider plugin.
 
+
+With the first project folders, you can make a simple infrastructure with a vpc and an instance.
+
+The second folder you can create an infrastructure with associated resources, vpc.tf contains the vpc and 4 subnets, sg.tf is the security group and instance.tf is the instance associated with the vpc and security group
+
 # Built With
 
 https://aws.amazon.com/es/
