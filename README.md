@@ -15,3 +15,21 @@ We move it to / opt / and create a symbolic link to be able to run it from anywh
 We can see the version of Terraform that we have installed with:
 
 - terraform version
+
+# How to use the project folders
+
+
+To start using terraform you need a folder with the file provider.tf where we indicate the provider we are going to use, in this case AWS.
+
+Every time we add a provider, we use the terraform init command. 
+Initialization downloads and installs the provider plugin.
+
+# Built With
+
+https://aws.amazon.com/es/
+
+https://www.terraform.io/
+
+# Author
+Alejandro Manzano
+
