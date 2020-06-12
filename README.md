@@ -21,7 +21,7 @@ We can see the version of Terraform that we have installed with:
 
 To start using terraform you need a folder with the file provider.tf where we indicate the provider we are going to use, in this case AWS.
 
-Every time we add a provider, we use the terraform init command. 
+Every time we add a provider, we use command: terraform init. 
 Initialization downloads and installs the provider plugin.
 
 # Built With
