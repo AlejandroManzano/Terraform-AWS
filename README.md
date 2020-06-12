@@ -31,6 +31,13 @@ With the first project folders, you can make a simple infrastructure with a vpc 
 
 The second folder you can create an infrastructure with associated resources, vpc.tf contains the vpc and 4 subnets, sg.tf is the security group and instance.tf is the instance associated with the vpc and security group
 
+In order to create the infrastructure we use the command:
+- terraform plan
+This command indicates what actions are necessary to achieve the desired state specified in the configuration files.
+
+And finally we use the command:
+- terraform apply
+This command is used to apply the necessary changes to reach the desired state of the configuration.
 # Built With
 
 https://aws.amazon.com/es/
